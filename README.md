@@ -8,5 +8,5 @@ First install pipenv and then execute the script inside pipenv
 
 ```
 pip3 install pipenv
-pipenv run "python find_meterors_auckland.py"
+pipenv run "python meteors/find_meterors_auckland.py"
 ```
