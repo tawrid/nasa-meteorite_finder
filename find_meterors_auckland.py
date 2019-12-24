@@ -32,4 +32,11 @@ if __name__ == '__main__':
 
     meteor_data.sort(key=get_dist)
 
-    print(meteor_data[0:10])
+    # print(meteor_data[0:10])
+    for i in range(10):
+        print("Location {0}:".format(i))
+        print("Name: {0}".format(meteor_data[i]['name']))
+        print("Distance: {0}".format(meteor_data[i]['distance']))
+        print("Latitude: {0}".format(meteor_data[i]['reclat']))
+        print("Longitude: {0}".format(meteor_data[i]['reclong']))
+        print("-------------")
